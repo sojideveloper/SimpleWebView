@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C07534131CB4796900DD8703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07534121CB4796900DD8703 /* AppDelegate.swift */; };
-		C07534151CB4796900DD8703 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07534141CB4796900DD8703 /* ViewController.swift */; };
 		C07534181CB4796900DD8703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07534161CB4796900DD8703 /* Main.storyboard */; };
 		C075341A1CB4796900DD8703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07534191CB4796900DD8703 /* Assets.xcassets */; };
 		C075341D1CB4796900DD8703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C075341B1CB4796900DD8703 /* LaunchScreen.storyboard */; };
+		C07534251CB479C200DD8703 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07534241CB479C200DD8703 /* WebViewController.swift */; };
+		C07534271CB487EB00DD8703 /* images in Resources */ = {isa = PBXBuildFile; fileRef = C07534261CB487EB00DD8703 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C075340F1CB4796900DD8703 /* SimpleWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07534121CB4796900DD8703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C07534141CB4796900DD8703 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C07534171CB4796900DD8703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C07534191CB4796900DD8703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C075341C1CB4796900DD8703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C075341E1CB4796900DD8703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07534241CB479C200DD8703 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C07534261CB487EB00DD8703 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		C07534061CB4796900DD8703 = {
 			isa = PBXGroup;
 			children = (
+				C07534241CB479C200DD8703 /* WebViewController.swift */,
 				C07534111CB4796900DD8703 /* SimpleWebView */,
 				C07534101CB4796900DD8703 /* Products */,
 			);
@@ -55,11 +58,11 @@
 			isa = PBXGroup;
 			children = (
 				C07534121CB4796900DD8703 /* AppDelegate.swift */,
-				C07534141CB4796900DD8703 /* ViewController.swift */,
 				C07534161CB4796900DD8703 /* Main.storyboard */,
 				C07534191CB4796900DD8703 /* Assets.xcassets */,
 				C075341B1CB4796900DD8703 /* LaunchScreen.storyboard */,
 				C075341E1CB4796900DD8703 /* Info.plist */,
+				C07534261CB487EB00DD8703 /* images */,
 			);
 			path = SimpleWebView;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07534271CB487EB00DD8703 /* images in Resources */,
 				C075341D1CB4796900DD8703 /* LaunchScreen.storyboard in Resources */,
 				C075341A1CB4796900DD8703 /* Assets.xcassets in Resources */,
 				C07534181CB4796900DD8703 /* Main.storyboard in Resources */,
@@ -135,8 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C07534151CB4796900DD8703 /* ViewController.swift in Sources */,
 				C07534131CB4796900DD8703 /* AppDelegate.swift in Sources */,
+				C07534251CB479C200DD8703 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
